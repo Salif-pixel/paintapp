@@ -24,7 +24,8 @@ public class BgColorsPanel extends JPanel   implements ToolBarState.ToolBarState
         this.add(LayoutBg);
 
         Color[] colors = {
-                Color.RED, Color.BLUE, Color.GREEN, Color.YELLOW, Color.ORANGE,
+                Color.WHITE,
+                Color.RED, Color.BLUE, Color.GREEN, Color.YELLOW, Color.BLACK, Color.ORANGE,
                 Color.PINK, Color.CYAN, Color.MAGENTA, Color.GRAY, Color.LIGHT_GRAY
         };
         JButton[] buttons = new JButton[colors.length];
